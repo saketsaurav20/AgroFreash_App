@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">-->
+
+<RelativeLayout android:id="@+id/profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <TextView
+            android:id="@+id/editText3"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="41dp"
+            android:inputType="textPersonName"
+            android:text="NAME:- User Name" />
+
+        <TextView
+            android:id="@+id/editText4"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/editText3"
+            android:layout_marginTop="94dp"
+            android:inputType="textPersonName"
+            android:text="User ID"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="117dp" />
+
+        <TextView
+            android:id="@+id/editText8"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/editText3"
+            android:layout_marginTop="147dp"
+            android:inputType="textEmailAddress"
+            android:text="User Emai Id" />
+
+        <TextView
+            android:id="@+id/editText9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/editText3"
+            android:layout_marginTop="201dp"
+            android:inputType="phone"
+            android:text="User Phone Number" />
+
+        <TextView
+            android:id="@+id/editText10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editText3"
+            android:layout_centerVertical="true"
+            android:inputType="textPostalAddress"
+            android:layout_below="@id/editText9"
+            android:layout_marginTop="65px"
+            android:text="Postal Address" />
+
+        <ImageView
+            android:id="@+id/profilepic"
+            android:layout_width="170dp"
+            android:layout_height="155dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="17dp"
+            android:layout_marginTop="29dp"
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/ic_menu_gallery"
+            tools:layout_editor_absoluteX="214dp"
+            tools:layout_editor_absoluteY="0dp" />
+</RelativeLayout>
+
+<!--</android.support.constraint.ConstraintLayout>-->

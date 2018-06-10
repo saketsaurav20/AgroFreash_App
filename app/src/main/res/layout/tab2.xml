@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity$PlaceholderFragment"-->
+
+<RelativeLayout
+    android:id="@+id/neworder"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="item"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="150dp"
+        android:popupBackground="#FFFF99" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="84dp"
+        android:text="Item name"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="23dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:text="Product name"
+        android:textAppearance="@android:style/TextAppearance.Material.Small"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginTop="144dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="In kg"
+        android:textStyle="italic"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText2"
+        android:layout_alignStart="@+id/textView"
+        android:text="Weight"
+        android:textSize="20sp" />
+</RelativeLayout>
+<!--/android.support.constraint.ConstraintLayout-->
